@@ -7,12 +7,12 @@ Created on Sat Apr 13 18:44:02 2019
 """
 import csv
 
-villains =  [['FIRST NAME', 'LAST NAME'], # Header (Column Names)
-            ['Doctor', 'No'],
-            ['Rosa', 'Klebb'],
-            ['Mister', 'Big'],
-            ['Auric', 'Goldfinger'],
-            ['Ernst', 'Blofeld'],
+villains =  [
+        {'FIRST NAME': 'Doctor','LAST NAME': 'No'},
+        {'FIRST NAME': 'Rosa',  'LAST NAME': 'Klebb'},
+        {'FIRST NAME': 'Mister','LAST NAME': 'Big'},
+        {'FIRST NAME': 'Auric', 'LAST NAME': 'Goldfinger'},
+        {'FIRST NAME': 'Ernst', 'LAST NAME': 'Blofeld'},
             ]
 
 filename = 'villains.csv'
@@ -28,16 +28,18 @@ modes = writemode+textfile
 #modes = appendmode+textfile
 
 try:
-    rows = len(villains)
+    rows = len(villains) + 1 # including Header
     with open(filename, modes, newline='') as fout:
-        csvout = csv.writer(fout)
+        fldnams = ['FIRST NAME', 'LAST NAME']
+        csvout = csv.DictWriter(fout, fldnams)
+        csvout.writeheader()
 #%%
-        csvout.writerows(villains)
+#        csvout.writerows(villains)
 #%%
 
 #%%
-#        for row in villains:
-#            csvout.writerow(row)
+        for di in villains:
+            csvout.writerow(di)
 #%%    
     print('Wrote csv file %s, with %d rows' % (filename, rows))
     
