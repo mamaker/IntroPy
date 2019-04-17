@@ -24,4 +24,4 @@ print(binascii.unhexlify(b'9a'))
 print(int('9a',16))
 #154
 
-
+print(b'a string','=', b'a string'.decode('ascii'))
