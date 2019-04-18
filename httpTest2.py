@@ -9,8 +9,8 @@ import requests
 
 
 url = 'http://www.omdbapi.com'
-#url = 'http://www.omdbapi.com/?apikey=FF68a35f&t=eegah&y=1962'
-myapikey = 'FF68a35f'
+#url = 'http://www.omdbapi.com/?apikey=0068a35f&t=eegah&y=1962'
+myapikey = '0068a35f'
 #title = input ('Type a movie Title:')
 title = 'jaws'
 args = {'apikey': myapikey, 't': title}

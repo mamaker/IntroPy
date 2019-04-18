@@ -11,8 +11,8 @@ import json
 
 
 title = input ('Type a movie Title:')
-url = 'http://www.omdbapi.com/?apikey=FF68a35f&t=%s' % quote(title)
-#url = 'http://www.omdbapi.com/?apikey=FF68a35f&t=eegah&y=1962'
+url = 'http://www.omdbapi.com/?apikey=0068a35f&t=%s' % quote(title)
+#url = 'http://www.omdbapi.com/?apikey=0068a35f&t=eegah&y=1962'
 try:
 
     print(url)

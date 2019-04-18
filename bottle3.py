@@ -2,7 +2,8 @@
 """
 bottle3.py
 Created on Wed Apr 17 19:17:26 2019
-
+http://localhost:9999
+http://localhost:9999/echo/shambhu
 @author: madhu
 """
 from bottle import route, run, static_file
