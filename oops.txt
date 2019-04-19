@@ -1,0 +1,5 @@
+Oops, I created file oops.txt in directory C:\max\PyStuf\IntroPy.
+    Absolute path name is: C:\max\PyStuf\IntroPy\oops.txt.
+    Directory name is: IntroPy.
+    It already had the files: .git,.gitignore,Archive.py,Archive2.py,asciBi.py,bfile.bin,bottle1.py,bottle2.py,bottle3.py,bottle_test.py,constructBytes.py,dbmread.py,dbmtest.bak,dbmtest.dat,dbmtest.dir,dbmwrite.py,dictLetter.py,fileio.py,flask1.py,flask2.py,flask3a.py,flask3b.py,flask3c.py,hextodeci.py,httpTest.py,httpTest2.py,index.html,jsonStr.py,links.py,mcintyre.yaml,memcachetst.py,menu.xml,oops.txt,pickling.py,readBinary.py,readCfg.py,readCsv.py,readCsvDict.py,README.md,readText.py,readXML.py,readYAML.py,redisbits.py,redisset2.py,redistst.py,redistst2.py,redistst3.py,redistst4.py,redistst5.py,regexams.py,relativity.txt,seekBinary.py,settings.cfg,sqlalexp.db,sqlalexp.py,sqlalite.db,sqlalorm.db,sqlalorm.py,sqlaltst.py,sqlite3tst.py,sqllttst.db,templates,test1.py,UnicNames.py,villains.csv,writeBinary.py,writeCsv.py,writeCsvDict.py,writeText.py,writeTextWith.py
+    

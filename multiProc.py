@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+"""
+multiProc.py
+Run from command line: python multiProc.py
+Created on Thu Apr 18 17:28:37 2019
+
+@author: madhu
+"""
+import os
+import multiprocessing
+
+def do_this(what):
+    whoami(what)
+
+def whoami(what):
+    print("Process %s says: %s" % (os.getpid(), what))
+
+#%%
+if __name__ == "__main__":
+    whoami("I'm the main program")
+    for n in range(4):
+        p = multiprocessing.Process(target=do_this,
+            args=("I'm function %s" % n,))
+        p.start()
+#%%
+
