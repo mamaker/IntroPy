@@ -10,7 +10,6 @@ import calendar
 #%%
 
 print('-'*30)
-i = 0
 isornot = {True: 'is', False: 'aint'}
 year = 1900; print(year,'%s leap' % isornot.get(calendar.isleap(year)))
 year = 1996; print(year,'%s leap' % isornot.get(calendar.isleap(year)))
