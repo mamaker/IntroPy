@@ -1,0 +1,26 @@
+2019-04-22 13:31:32,805 DEBUG 25 Looks like rain
+2019-04-22 13:31:32,805 DEBUG 26 It's raining again
+2019-04-22 13:31:32,805 INFO 30 And hail
+2019-04-22 13:31:32,805 INFO 31 With hail the size of hailstones
+2019-04-22 13:31:32,820 WARNING 35 Did I hear thunder?
+2019-04-22 13:31:32,820 ERROR 39 Was that lightning?
+2019-04-22 13:31:32,820 CRITICAL 43 Stop fencing and get inside!
+2019-04-22 13:31:32,820 INFO 54 Looks like rain
+2019-04-22 13:31:32,820 INFO 55 Timber!
+2019-04-22 13:31:32,836 DEBUG 59 And hail
+2019-04-22 13:31:32,836 DEBUG 60 Where's my axe?
+2019-04-22 13:31:32,836 WARNING 64 Did I hear thunder?
+2019-04-22 13:31:32,836 WARNING 65 I need my axe
+2019-04-22 13:34:15,538 DEBUG 25 Looks like rain
+2019-04-22 13:34:15,538 DEBUG 26 It's raining again
+2019-04-22 13:34:15,554 INFO 30 And hail
+2019-04-22 13:34:15,554 INFO 31 With hail the size of hailstones
+2019-04-22 13:34:15,554 WARNING 35 Did I hear thunder?
+2019-04-22 13:34:15,569 ERROR 39 Was that lightning?
+2019-04-22 13:34:15,569 CRITICAL 43 Stop fencing and get inside!
+2019-04-22 13:34:15,569 INFO 54 Looks like rain
+2019-04-22 13:34:15,569 INFO 55 Timber!
+2019-04-22 13:34:15,569 DEBUG 59 And hail
+2019-04-22 13:34:15,569 DEBUG 60 Where's my axe?
+2019-04-22 13:34:15,585 WARNING 64 Did I hear thunder?
+2019-04-22 13:34:15,585 WARNING 65 I need my axe
